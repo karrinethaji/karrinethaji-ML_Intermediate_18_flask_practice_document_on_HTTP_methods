@@ -1,0 +1,11 @@
+<html>
+    <body>
+        <div>
+            <h1> Your account was succesfully created, Please proceed to log in </h1>
+            <form method="post" action="{{url_for('post_method')}}">
+                <input type="text" name="user" placeholder="username" required="required">
+                <input type="password" name="password" placeholder="password" required="required">
+                <button type="submit">submit</button>
+        </div>
+    </body>
+</html>

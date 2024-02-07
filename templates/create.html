@@ -1,0 +1,9 @@
+<html>
+    <body>
+        <h1> Hi {{user_name}}, you don't have any active account with the username, You can request for one account by filling below details</h1>
+        <form method="post" action="{{url_for('create_method')}}">
+            <input type="text" name="user" placeholder="username" required="required">
+            <input type="password" name="password" placeholder="password" required="required">
+            <button type="submit"> Create account </button>
+    </body>
+    </html>
